@@ -1,0 +1,40 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #0c1a21; }
+
+.content {
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: 'Palanquin Dark', sans-serif; }
+  .content h3 {
+    margin-bottom: 0px;
+    font-size: 80px; }
+  .content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  .content li {
+    display: inline;
+    margin-right: 10px; }
+    .content li a {
+      text-decoration: none; }
+      .content li a img {
+        opacity: 0.5; }
+        .content li a img:hover {
+          opacity: 1; }
+
+#particles-js {
+  display: block;
+  vertical-align: bottom;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
